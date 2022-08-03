@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7d6a3d7d08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <title>Playstation Studios</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./img/ps1.png" class="logo" alt="">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="./Estudios.html">Estudios</a></li>
+                    <li><a href="">Hardware</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Noticias</a></li>
+                     <li>sdsdsd</li>
+                </ul>
+            </nav>
+            <img src="./img/menu.png" class="menu-icon" onclick="togglemenu()" alt="">
+        </div>
+    </div>
+    
+        <div class="fila">
+            <div class="col-1">
+                    <h2>PLATSTATION PLUS DELUXE</h2>
+                    <h3>Descubre todos los beneficios</h3>
+                    <p>Disfruta de todos los beneficios de Playstation plus <br> de los planes extra y essential,
+                       ademas de beneficios exclusivos, <br> como juegos y catalogo clasicos y novedades semanales.</p>
+                     <h4>$9.99</h4>
+                     <button type="button">Suscribirse</button>  
+            </div>
+            <div class="col-2">
+                <img src="./img/ps-plus-extra-game-catalog-image-block-01-en-10jun22.webp" class="psplus" alt="">
+                <div class="color-box"></div>
+
+            </div>
+        </div>
+        <div class="social">
+            <img src="./img/fb.png" alt="">
+            <img src="./img/ig.png" alt="">
+            <img src="./img/tw.png" alt="">
+        </div>
+
+       
+    <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight ="0px";
+        function togglemenu (){
+            if(menulist.style.maxHeight =="0px")
+            {
+                menulist.style.maxHeight ="130px";
+            }
+            else{
+                menulist.style.maxHeight ="0px"
+            }
+        }
+    </script>
+    
+</body>
+</html>

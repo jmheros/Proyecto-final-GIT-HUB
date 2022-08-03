@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.png">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="./index.html"><img src="./img/ps1.png" class="logo" alt="">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">Estudios</a></li>
+                    <li><a href="">Hardware</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Noticias</a></li>
+
+                </ul>
+            </nav>
+            <img src="./img/menu.png" class="menu-icon" onclick="togglemenu()" alt="">
+        </div>
+    </div>
+
+    <div class="titulo">
+        <h1>Nuestros estudios</h1>
+     </div>
+<div class="container-estudios">
+    <div class="studios">
+        <img src="./img/estudio1.webp" alt="">
+        <p>El equipo detrás del título exclusivo de PS5 Astro's Playroom.</p>
+        <a href="">Ver mas</a>
+    </div>
+
+    <div class="studios">
+        <img src="./img/estudio2.webp" alt="">
+        <p>Creando juegos durante más de 25 años en la falda de la hermosa cordillera de las Cascadas de Oregón.</p>
+         <a href="">Ver mas</a>
+    </div>
+
+    <div class="studios">
+        <img src="./img/estudio3.webp" alt="">
+        <p>El estudio ubicado en Austin detrás de remasterizaciones y remakes aclamados por la crítica, como The Nathan Drake Collection y Demon's Souls</p>
+             <a href="">Ver mas</a>
+    </div>
+
+    <div class="studios">
+        <img src="./img/estudio4.webp" alt="">
+        <p>El estudio de videojuegos con base en el Reino Unido con un historial de desarrollo de piezas de exhibición de gran acabado para hardware de punta.</p>
+             <a href="">Ver mas</a>
+    </div>
+
+    <div class="studios">
+        <img src="./img/estudio5.webp" alt="">
+        <p>El estudio que dio vida a la serie aclamada por la crítica Horizon.</p>
+             <a href="">Ver mas</a>
+    </div>
+        
+    <div class="studios">
+        <img src="./img/estudio6.webp" alt="">
+        <p>El estudio responsable del megaéxito Returnal.</p>
+             <a href="">Ver mas</a>
+    </div>
+
+    <div class="studios">
+        <img src="./img/estudio7.webp" alt="">
+        <p>La desarrolladora colaborativa detrás de Marvel's Spider-Man y los creadores de Ratchet & Clank.</p>
+             <a href="">Ver mas</a>
+    </div>
+
+    <div class="studios">
+        <img src="./img/estudio8.webp" alt="">
+        <p>Creando experiencias de juego únicas en la red urbana creativa.</p>
+             <a href="">Ver mas</a>
+    </div>
+
+</div>
+
+</div>
+<div class="social">
+    <img src="./img/fb.png" alt="">
+    <img src="./img/ig.png" alt="">
+    <img src="./img/tw.png" alt="">
+</div>
+
+    
+    <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight ="0px";
+        function togglemenu (){
+            if(menulist.style.maxHeight =="0px")
+            {
+                menulist.style.maxHeight ="130px";
+            }
+            else{
+                menulist.style.maxHeight ="0px"
+            }
+        }
+    </script>
+</body>
+</html>
