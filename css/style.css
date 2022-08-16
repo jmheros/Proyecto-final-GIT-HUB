@@ -1,0 +1,89 @@
+.fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.col-1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+.col-1 h2 {
+  font-size: 54px;
+}
+.col-1 h2 h3 {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+.col-1 h2 h3 h4 {
+  margin: 20px 0 10px;
+  font-size: 20px;
+}
+.col-1 h2 h3 h4 p {
+  font-size: 16px;
+  color: #707070;
+}
+
+.container {
+  width: 100%;
+  min-height: 20vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 65px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+nav ul li:hover {
+  color: #707070;
+}
+
+.social {
+  text-align: center;
+}
+.social img {
+  height: 20px;
+  margin: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

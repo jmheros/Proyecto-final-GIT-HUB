@@ -1,0 +1,52 @@
+
+
+.container{ 
+    
+    width: 100%;
+    min-height: 20vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 65px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 30px;
+            a{
+                text-decoration: none;
+                color: $bg-black;
+                font-size: 15px;}
+                &:hover{
+                    color: $bg-gris;
+                }  
+            }
+        }
+
+        
+    }

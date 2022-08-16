@@ -1,0 +1,31 @@
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    h2{
+        font-size: 54px;
+        h3{
+            font-size: 30px;
+            font-weight: 100;
+            margin: 20px 0 10px;
+            h4{
+                margin: 20px 0 10px;
+                font-size: 20px;
+                p{
+                    font-size: 16px;
+                    color: $bg-gris;  
+                } 
+            } 
+        }
+
+    }
+}
+
