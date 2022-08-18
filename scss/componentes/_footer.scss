@@ -1,8 +1,19 @@
+.social img{
+    height: 20px;
+    margin: 20px;
+    @media only screen and (max-width:700px){
+        height: 18px;
+        margin: 20px;
+    }
+}
 
 .social{
     text-align: center;
-    img{
-        height: 20px;
-        margin: 20px;
+    @media only screen and (max-width:700px){
+        text-align: center;
     }
+}
+
+footer{
+    @include colores ($colors, $ancho, $alto)
 }
